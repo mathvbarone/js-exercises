@@ -8,7 +8,7 @@
 //   palindrome("abcdefg") === false
 
 
-// MY SOLUTION
+// MY SOLUTION WITH FOR
 function palindrome(str) {
     let length = str.length;
     
