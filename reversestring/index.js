@@ -9,12 +9,17 @@
 // MY SOLUTION
 function reverse(str) {
   let arr = str.split('')
+
   let reverseArr = [];
   for(let i = arr.length - 1; i >= 0; i-- ) {
+
     reverseArr.push(arr[i])
   }
+  
   return reverseArr.join('')
 }
+
+reverse('asasas')
 
 module.exports = reverse;
 
@@ -25,7 +30,6 @@ module.exports = reverse;
 //         return character + reversed
 //     },'')
 // }
-
 
 // USING FOR OF
 
